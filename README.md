@@ -2,7 +2,7 @@
 This repository provide complimentary methods to the manuscript
 
 ## Usage
-Please download the all data as a ZIP file into the Download folder (if you are a Mac user). If you running under other platforms please check code carefully and modify all the pathways accordingly to suit your environment. 
+Please download the all data as a ZIP file into the Download folder (if you are a Mac user). If you are with other platforms please check code carefully and modify all the pathways accordingly to suit your environment. 
 
 
 
