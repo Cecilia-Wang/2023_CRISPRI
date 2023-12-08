@@ -4,7 +4,7 @@ This repository provide complimentary methods to the manuscript
 ## Usage
 Please download the all data as a ZIP file into the Download folder (if you are a Mac user). If you are with other platforms please check code carefully and modify all the pathways accordingly to suit your environment. 
 
-
+For questions related to this project, Please feel free to open an issue and ask. I will do my best to respond.
 
 
 ## System information
