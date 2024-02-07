@@ -24,7 +24,7 @@ files_path<-"~/Downloads/2023_CRISPRI-main/data/" # Modify this path to your pat
 ex_res_all_multirun<-NULL
 
 
-ex_file_all<-list.files(files_path)
+ex_file_all<-list.files(paste0(files_path,"exact_test"),pattern="tsv")
 ex_res_all<-lapply(paste0(files_path,"exact_test/",ex_file_all), read.delim, header = TRUE,sep = "")
 ex_res_all <- do.call("rbind", ex_res_all)
 
