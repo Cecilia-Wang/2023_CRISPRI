@@ -35,6 +35,9 @@ ex_res_all_multirun<-rbind(ex_res_all_multirun,ex_res_all)
 # Load metadata
 meta_group<-read.csv(paste0(files_path, "meta_group.csv"))
 
+# assigned target genes to each guide id
+ex_res_all_multirun$target.gene<-meta_group$target.gene[match(ex_res_all_multirun$guide.id,meta_group$guide.id)]
+
 sum_guide<-read.csv(paste0(files_path,"summary_guide_data.csv"))
 
 # Information regarding essential calls from Bosch 2021
